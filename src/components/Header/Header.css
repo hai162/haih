@@ -1,0 +1,82 @@
+.header {
+  width: 100%;
+}
+
+.hero {
+  background-image: url('https://wallpapers.com/images/hd/work-background-kxmiw0h0ugqy2eoa.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 648px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+}
+.hero-content {
+  width: 60%;
+  text-align: center;
+  font: 14px 'Roboto', sans-serif;
+  color: #4f46e5;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.search-input {
+  width: 500px;
+  padding: 10px;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+
+.search-button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.search-button:hover {
+  background-color: #4338ca;
+}
+
+@media (max-width: 768px) {
+  .hero {
+    height: 400px;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+  .search-input {
+    width: 100px;
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px 0 0 5px;
+    color: ;
+  }
+}
